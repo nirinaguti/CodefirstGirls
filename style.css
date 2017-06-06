@@ -2,11 +2,11 @@ h1 {
 	font-family: helvetica neue;
 	font-weight: bold; 
 	text-align: center;
-	padding-top: -500px;
+	padding-top: -200px;
 }
 p1 {
 	font-family: avenir;
-	padding-top: 600px;
+	padding-top: 200px;
 	font-size: 22px;
 	padding: 30px;
 	text-align: center;
@@ -48,7 +48,8 @@ p1 {
   margin-left: -75px;
 }
 #cheese2 {
-	float: left;
+	top:-150px;
+	left: -500px;
 }
 #cheese3.image-wrapper .image-overlay .content {
   position: absolute;
@@ -60,12 +61,13 @@ p1 {
   margin-left: -75px;
 }
 #cheese3 {
-	top:-400px;
-	right: -200px;
+	position: absolute;
+	top:150px;
+	right: 100px;
 }
 #cheese{
 	background-color: #FCB93D;
-	height: 500px;
+	height: 400px;
 }
 
 img {
@@ -95,8 +97,16 @@ input[type="submit"] {
 }
       
 #countdown{
-	font-size: 100px;
+	font-size: 70px;
     font-family: helvetica;
 	font-weight: bold;
+	position: absolute;
 	color:white;
+	text-align: center;
+	width: 100%;
+	top:220px;
+
+}
+.row {
+	font-family: avenir;
 }
