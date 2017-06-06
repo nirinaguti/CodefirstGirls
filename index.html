@@ -1,22 +1,58 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Cheesy Cheesy</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>Cheesy Cheesy</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="cheese">
-		<img src="cheese hole-02.png">
-	</div>
-	<H1>ALL YOU NEED IS CHEESE</h1>
-	<p1>For all the true cheese lovers out there. Find out the time and date the secret cheese event will take place and submit your anwser below. If correct we will send you an official invitation with the address.</p1>
-	<br>
-	<br>
-	<br>
-	<input type="anwser" placeholder="Time & Date">
-	<input type="submit">
-	<div></div>
+  <div id="cheese">
+    <img src="cheese hole-02.png">
+    <div id="countdown">
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 12, 2017 20:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</div>
+  </div>
+  <!-- Display the countdown timer in an element -->
+
+  <H1>ALL YOU NEED IS CHEESE</h1>
+  <p1>For all the true cheese lovers out there. Find out the time and date the secret cheese event will take place and submit your anwser below. If correct we will send you an official invitation with the address.</p1>
+  <br>
+  <br>
+  <br>
+  <input type="anwser" placeholder="Time & Date">
+  <input type="submit">
+  <div></div>
 </body>
 <div class="row">
   <div class="col-md-4"><div class="row">
