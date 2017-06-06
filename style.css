@@ -37,4 +37,11 @@ body {
     input[type="submit"] {
       background: #FCB93D;
       border:0;
-      color: white;
+      color: white;}
+      
+#countdown{border:solid;
+      	font-size: 50px;
+      	font-family: helvetica;
+      font-weight: bold;
+      color: #FCB93D
+      }
