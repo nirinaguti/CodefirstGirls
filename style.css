@@ -2,24 +2,27 @@ h1 {
 	font-family: helvetica neue;
 	font-weight: bold; 
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 300px;
 }
 p1 {
 	font-family: avenir;
 	padding-top: 600px;
 	font-size: 22px;
-	padding: 50px;
+	padding: 30px;
 	text-align: center;
 	font-weight: light;  
 }
+
 #cheese{
 	background-color: #FCB93D;
 	height: 400px;
 }
+
 img {
 	width: 50px;
 	padding-top: 40px;
 }
+
 body {
 	text-align: center;
 }
@@ -28,7 +31,7 @@ body {
       border: 0;
       border: solid;
       border-width: 0.20px;
-      border-color: #D1D2D4;
+      border-color: grey;
       padding: 10px;
       font-size: 15px;
       font-family: helvetica;
@@ -39,9 +42,8 @@ body {
       border:0;
       color: white;}
       
-#countdown{border:solid;
-      	font-size: 50px;
+#countdown{font-size: 50px;
       	font-family: helvetica;
       font-weight: bold;
-      color: #FCB93D
+      color:white;
       }
