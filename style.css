@@ -2,7 +2,7 @@ h1 {
 	font-family: helvetica neue;
 	font-weight: bold; 
 	text-align: center;
-	padding-top: 300px;
+	padding-top: 30px;
 }
 p1 {
 	font-family: avenir;
@@ -12,15 +12,65 @@ p1 {
 	text-align: center;
 	font-weight: light;  
 }
-
+.image-wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+.image-wrapper .image-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0,.25);
+  color: #fff;
+  display: none;
+}
+.image-wrapper:hover .image-overlay {
+   display: block;
+   font-family: avenir;
+}
+.image-wrapper .image-overlay .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 150px;
+  margin-top: -20px;
+  margin-left: -75px;
+}
+#cheese2 {
+	float: left;
+}
+#cheese3.image-wrapper .image-overlay .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 150px;
+  margin-top: -70px;
+  margin-left: -75px;
+}
+#cheese3 {
+	top:-80px;
+	right: -200px;
+}
 #cheese{
 	background-color: #FCB93D;
 	height: 400px;
 }
 
 img {
-	width: 50px;
-	padding-top: 40px;
+	width: 100px;
+	padding-top: 20px;
 }
 
 body {
