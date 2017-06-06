@@ -1,0 +1,40 @@
+h1 {
+	font-family: helvetica neue;
+	font-weight: bold; 
+	text-align: center;
+	padding-top: 30px;
+}
+p1 {
+	font-family: avenir;
+	padding-top: 600px;
+	font-size: 22px;
+	padding: 50px;
+	text-align: center;
+	font-weight: light;  
+}
+#cheese{
+	background-color: #FCB93D;
+	height: 400px;
+}
+img {
+	width: 50px;
+	padding-top: 40px;
+}
+body {
+	text-align: center;
+}
+
+ input {
+      border: 0;
+      border: solid;
+      border-width: 0.20px;
+      border-color: #D1D2D4;
+      padding: 10px;
+      font-size: 15px;
+      font-family: helvetica;
+      font-weight: lighter;
+    }
+    input[type="submit"] {
+      background: #FCB93D;
+      border:0;
+      color: white;
