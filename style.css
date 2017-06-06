@@ -2,7 +2,7 @@ h1 {
 	font-family: helvetica neue;
 	font-weight: bold; 
 	text-align: center;
-	padding-top: 30px;
+	padding-top: -500px;
 }
 p1 {
 	font-family: avenir;
@@ -60,12 +60,12 @@ p1 {
   margin-left: -75px;
 }
 #cheese3 {
-	top:-80px;
+	top:-400px;
 	right: -200px;
 }
 #cheese{
 	background-color: #FCB93D;
-	height: 400px;
+	height: 500px;
 }
 
 img {
@@ -87,7 +87,16 @@ body {
       font-family: helvetica;
       font-weight: lighter;
     }
-    input[type="submit"] {
-      background: #FCB93D;
-      border:0;
-      color: white;
+
+input[type="submit"] {
+  background: #FCB93D;
+  border:0;
+  color: white;
+}
+      
+#countdown{
+	font-size: 100px;
+    font-family: helvetica;
+	font-weight: bold;
+	color:white;
+}
